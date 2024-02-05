@@ -4,29 +4,81 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        body{
+            width: 100vw;
+            height: 100vh;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+        }
+        .flex{
+            width: 40vw;
+            height: 100vh;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: column;
+
+        }
+        .top{
+            text-align: center;
+            font-size: 250%;
+            font-weight: bold;
+        }
+        span{
+            font-weight: bold;
+            display: block;
+            justify-content: center;
+            font-family: 'Roboto', sans-serif;
+        }
+        .flex_a{
+            width: 40vw;
+            height: 15vh;
+            display: flex;
+            margin: 10px;
+            justify-content: space-between;
+            align-items: baseline;
+            flex-direction: row;
+        }
+        .toping{
+            width: 15%;
+            height: 100%;
+            border: 2px #363535 solid;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
         .img{
-            height: 10px;
-            background-image: url("https://cdn.icon-icons.com/icons2/1301/PNG/512/if-food-c247-2427884_85682.png");
+            width: 70%;
+            height: 70%;
+            background-size: contain;
+            background-repeat: no-repeat;
         }
     </style>
 </head>
 <body>
 <div class="flex">
+    <span class="top">Below are some popular topping options that will satisfy your palette while making you full.</span>
     <div class="flex_a">
-        <div class="toping"><div class="img"></div><span>Pepper</span></div>
-        <div class="toping"><div class="img"></div><span>Apple</span></div>
-        <div class="toping"><div class="img"></div><span>Cheese</span></div>
-        <div class="toping"><div class="img"></div><span>Corn</span></div>
-        <div class="toping"><div class="img"></div><span>Mushroom</span></div>
+        <div class="toping"><div class="img" style="background-image: url(https://cdn.icon-icons.com/icons2/1301/PNG/512/if-food-c247-2427884_85682.png)"></div><span>Pepper</span></div>
+        <div class="toping"><div class="img" style="background-image: url(https://cdn.icon-icons.com/icons2/1301/PNG/512/if-food-c240-2427880_85675.png)"></div><span>Apple</span></div>
+        <div class="toping"><div class="img" style="background-image: url(https://cdn.icon-icons.com/icons2/1301/PNG/512/if-food-c217-2427859_85693.png)"></div><span>Cheese</span></div>
+        <div class="toping"><div class="img" style="background-image: url(https://cdn.icon-icons.com/icons2/1301/PNG/512/if-food-c245-2427889_85690.png)"></div><span>Corn</span></div>
+        <div class="toping"><div class="img" style="background-image: url(https://cdn.icon-icons.com/icons2/1301/PNG/512/if-food-c239-2427893_85707.png)"></div><span>Mushroom</span></div>
     </div>
-    <div class="flex_b">
-        <div class="toping"><div class="img"></div><span>Garlic</span></div>
-        <div class="toping"><div class="img"></div><span>Beef</span></div>
-        <div class="toping"><div class="img"></div><span>Fish</span></div>
-        <div class="toping"><div class="img"></div><span>Eggs</span></div>
-        <div class="toping"><div class="img"></div><span>Coriander</span></div>
+    <div class="flex_a">
+        <div class="toping"><div class="img" style="background-image: url(https://cdn.icon-icons.com/icons2/1301/PNG/512/if-food-c238-2427878_85676.png)"></div><span>Garlic</span></div>
+        <div class="toping"><div class="img" style="background-image: url(https://cdn.icon-icons.com/icons2/1301/PNG/512/if-food-c225-2427885_85692.png)"></div><span>Beef</span></div>
+        <div class="toping"><div class="img" style="background-image: url(https://cdn.icon-icons.com/icons2/1301/PNG/512/if-food-c205-2427851_85705.png)"></div><span>Fish</span></div>
+        <div class="toping"><div class="img" style="background-image: url(https://cdn.icon-icons.com/icons2/1301/PNG/512/if-food-c203-2427849_85703.png)"></div><span>Eggs</span></div>
+        <div class="toping"><div class="img" style="background-image: url(https://cdn.icon-icons.com/icons2/1301/PNG/512/if-food-c235-2427892_85688.png)"></div><span>Coriander</span></div>
     </div>
-
+    <span>...that`s all</span>
 </div>
 </body>
 </html>
