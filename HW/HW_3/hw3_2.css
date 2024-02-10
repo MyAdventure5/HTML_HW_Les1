@@ -1,0 +1,42 @@
+html{
+    scroll-behavior: smooth; 
+}
+body{
+    margin: 0;
+}
+section{
+    height: 100vh;
+    text-align: center;
+
+}
+#first{
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#second{
+    background-color: #216ABB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#third {
+    background-color: #FF8577;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+div{
+    margin: 100px 0;
+    font-size: 3vh;
+    color: cornsilk;
+}
+img{
+    height: 5vh;
+    width: auto;
+}
