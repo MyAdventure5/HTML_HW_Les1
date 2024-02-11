@@ -16,7 +16,7 @@ body{
     
 }
 header{
-    background-color: antiquewhite;
+    background-color: #927D7D;
     width: 100vw;
     height: 20vh;
     display: flex;
@@ -24,7 +24,7 @@ header{
     align-items: center;
 }
 footer{
-    background-color: rgb(134, 76, 0);
+    background-color: #BDBDBD;
     width: 100vw;
     height: 20vh;
     display: flex;
@@ -32,7 +32,7 @@ footer{
     align-items: center;
 }
 .middle{
-    background-color: rgb(201, 49, 26);
+    background-color: #A74848;
     width: 60vw;
     height: 100%;
     display: flex;
@@ -40,7 +40,15 @@ footer{
     justify-content: center;
 }
 .side{
-    background-color: rgb(63, 63, 175);
+    background-color: #CCC;
+    width: 20vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    background-color: #B7AEAE;
     width: 20vw;
     height: 100%;
     display: flex;

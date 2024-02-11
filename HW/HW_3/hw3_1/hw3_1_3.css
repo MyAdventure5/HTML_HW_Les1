@@ -1,22 +1,17 @@
 
-body{
+body {
     margin: 0 auto;
-}
-.main{
-   
 }
 .conteiner{
    width: 100vw;
-   height: 60vh;
+   height: 59vh;
    display: flex;
    align-items: center;
    flex-direction: row;
 }
-.in{
-    
-}
+
 header{
-    background-color: antiquewhite;
+    background-color: #9B6F6F;
     width: 100vw;
     height: 20vh;
     display: flex;
@@ -24,52 +19,60 @@ header{
     align-items: center;
 }
 footer{
-    background-color: rgb(134, 76, 0);
+    background-color: #524B4B;
     width: 100vw;
-    height: 20vh;
+    height: 21vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .middle{
-    background-color: rgb(201, 49, 26);
-    width: 60vw;
-    height: 100%;
+    background-color: #8A8484;
+    width: 35vw;
+    height: 59vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .left{
-    background-color: rgb(63, 63, 175);
-    width: 20vw;
-    height: 100%;
+
+    width: 34vw;
+    height: 59vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 .right{
-    background-color: rgb(63, 63, 175);
-    width: 20vw;
-    height: 100%;
+    background-color: #C0B3B3;
+    width: 31vw;
+    height: 59vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.inLeft{
-    width: 100%;
+
+#top{
+    background-color: #D9D9D9;
+    width: 34vw;
     height: 33.3%;
     display: flex;
     align-items: center;
     justify-content: center;
-    
-}
-#top{
-    background-color: bisque;
 }
 #mid{
-    background-color: cornsilk;
+    background-color: #AA9898;
+    width: 34vw;
+    height: 33.3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #bot{
-    background-color: darkgrey
+    background-color: #C5BBBB;
+    width: 34vw;
+    height: 33.3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
