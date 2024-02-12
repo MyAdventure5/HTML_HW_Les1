@@ -1,9 +1,15 @@
 body{
-    margin:0;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color: #000;
+    font-family: "KoHo", sans-serif;
+    font-size: 3vh;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 /*___________________________________SECTION_1__________________________________________________*/
 .section_1{
@@ -16,25 +22,55 @@ body{
     align-items: center;
     flex-direction: row;
 }
+.p_H{
+    font-size: 4vh;
+}
 
 .section_1 img{
-
-    background-image: url(img_sec_1.png);
-
+    width: 34vw;
+    height: 39vh;
+    background-size: cover;
+    background-position: center;
 }
 .content_1{
-
+    width: 34vw;
+    height: 39vh;
+    background-color: #FAF9F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    width: 27vw;
+    height: 7vh;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow:  4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-size: 3vh;
+    color: #6B6666;
 }
 /*___________________________________SECTION_2_____________________________________________*/
 .section_2{
     width: 100vw;
     height: 100vh;
+    background-image: url(bg_sec_2.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
 }
 iframe{
+    width: 63vw;
+    height: 53vh;
 
 }
 .content_2{
-
+    width: 63vw;
+    height: fit-content;
 }
 /*___________________________________SECTION_3__________________________________________________*/
 .section_3{
@@ -42,6 +78,37 @@ iframe{
     height: 100vh;
     display: flex;
     justify-content: space-evenly;
+    background-image: url(bg_sec_2.png);
+    background-size: cover;
+    background-position: center;
     align-items: center;
     flex-direction: row;
 }
+ .card{
+     width: 30vw;
+     height: 69vh;
+     background-color: rgba(83, 83, 83, 0.40);
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     flex-direction: column;
+ }
+ .card button{
+     height: 7vh;
+     width: 27vw;
+     border-radius: 5px;
+     border: 1px solid rgba(156, 152, 152, 0.10);
+     background: rgba(217, 217, 217, 0.60);
+     box-shadow: 4px 4px rgba(0, 0, 0, 0.25);
+ }
+ .card img{
+     height: 21vh;
+     width: 27vw;
+ }
+ .card div{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-direction:column ;
+
+ }
