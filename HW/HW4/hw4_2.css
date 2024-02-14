@@ -1,0 +1,86 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+main{
+    margin-top: 20vh;
+    border: 2px solid #DBDBDB;
+    width: 20vw;
+    height: 55vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.log{
+    font-family: "Grand Hotel", cursive ;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 5vh;
+}
+
+input{
+    text-overflow: ellipsis;
+    width: 15vw;
+    height: 4vh;
+    border: 0.1vw solid #DBDBDB;
+    border-radius: 3px;
+    background-color: #FAFAFA;
+    margin: 0.3vw;
+}
+section{
+    margin: 1vw;
+    border: 2px solid #DBDBDB;
+    width: 20vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+img{
+    width: 1vw;
+    height: auto;
+}
+button{
+    color: white;
+    background-color: #68B4F9;
+    border: none;
+    border-radius: 0.4vw;
+    width: 15.2vw;
+    height: 4vh;
+    font-size: 1vw;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8vw;
+}
+a{
+    text-decoration: none;
+    color: #1976D2;
+}
+.facebook{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    width: 14vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: baseline;
+    font-size: 1.1vw;
+}
+.abo{
+    color: #737373;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 1vw;
+}
+section a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #68B4F9;
+}
