@@ -111,7 +111,7 @@ header button{
     width: 83.3vw;
     height: 84vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
     margin-top: 15vh;
@@ -125,7 +125,7 @@ header button{
 }
 #second>div{
     width: 83.3vw;
-    height: 13.7vh;
+    height: 15vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -238,5 +238,85 @@ header button{
     line-height: normal;
     letter-spacing: -0.75px;
     margin: 1vh 0;
+}
 
+/*__________________________________SECTION_4__________________________________*/
+
+#fourth{
+    width: 83.3vw;
+    height: 84vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+#fourth>h2{
+    margin-left: 10vw;
+    color: #FFF;
+    font-size: 58px;
+    font-weight: 800;
+    line-height: normal;
+}
+.port{
+    width: 83.3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#port_1{
+    width: 23.3vw;
+    height: 24.7vh;
+    background-image: url(image/port_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#port_2{
+    width: 23.3vw;
+    height: 24.7vh;
+    background-image: url(image/port_2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#port_3{
+    width: 23.3vw;
+    height: 24.7vh;
+    background-image: url(image/port_3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*__________________________________SECTION_5__________________________________*/
+
+#fifth{
+    width: 83.3vw;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+#fifth>h2{
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: normal;
+}
+#fifth button{
+    width: 204px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #5454D4;
+    color: white;
+}
+/*__________________________________SECTION_5__________________________________*/
+footer{
+    width: 83.3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
 }
