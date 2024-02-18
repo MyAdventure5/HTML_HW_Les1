@@ -48,7 +48,7 @@ img{
     font-weight: 400;
     line-height: normal;
 }
-button{
+header button{
     background-color: rgb(25, 25, 27);
     color: white;
     width: 11vw;
@@ -56,4 +56,55 @@ button{
     border-radius: 5px;
     border: 1px solid #FFF;
     backdrop-filter: blur(1px);
+}
+
+/*__________________________________SECTION_1__________________________________*/
+
+#first{
+    width: 100vw;
+    height: 69.6vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+#first div{
+    width: 42.5vw;
+    height: 69.6vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+}
+#first h1{
+    color: #FFF;
+    font-family: Lato normal, serif;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 84px; /* 105% */
+}
+#first>div>p{
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Lato normal, serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 39px; /* 185.714% */
+    letter-spacing: -0.657px;
+}
+#first img{
+    height: 69.6vh;
+}
+#first div button{
+    width: 204px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #5454D4;
+    color: white;
+}
+
+/*__________________________________SECTION_1__________________________________*/
+#second{
+
 }
