@@ -87,15 +87,15 @@ header button{
 }
 #first h1{
     color: #FFF;
-    font-size: 80px;
+    font-size: 8.2vh;
     font-weight: 400;
-    line-height: 84px; /* 105% */
+    line-height: 8.1vh; /* 105% */
 }
 #first>div>p{
     color: rgba(255, 255, 255, 0.70);
-    font-size: 21px;
+    font-size: 2.5vh;
     font-weight: 400;
-    line-height: 39px; /* 185.714% */
+    line-height: 4vh; /* 185.714% */
     letter-spacing: -0.657px;
 }
 #first img{
@@ -105,8 +105,8 @@ header button{
     padding-left: 1vw;
     font-size: 2.5vh;
     text-align: left;
-    width: 204px;
-    height: 58px;
+    width: 12vw;
+    height: 6vh;
     flex-shrink: 0;
     border: none;
     border-radius: 4px;
@@ -123,15 +123,15 @@ header button{
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    margin-top: 15vh;
+    margin-top: 20vh;
     font-family: "Lato", sans-serif;
     font-style: normal;
 }
 #second h2{
     color: #FFF;
-    font-size: 60px;
+    font-size: 6vh;
     font-weight: 400;
-    line-height: 84px; /* 105% */
+    line-height: 8vh; /* 105% */
 }
 #second>div{
     width: 83.3vw;
@@ -143,14 +143,15 @@ header button{
 }
 #second>div>p{
     color: rgba(255, 255, 255, 0.70);
-    font-size: 21px;
+    font-size: 3vh;
     font-weight: 400;
-    line-height: 39px; /* 185.714% */
+    line-height: 4vh; /* 185.714% */
     letter-spacing: -0.657px;
 }
 #second>img{
     width: 83.3vw;
     height: 83.3vh;
+    margin-top: 5vh;
 }
 
 /*__________________________________SECTION_3__________________________________*/
@@ -170,9 +171,9 @@ header button{
     height: 13.6vh;
     color: #FFF;
     text-align: center;
-    font-size: 60px;
+    font-size: 6vh;
     font-weight: 400;
-    line-height: 70px; /* 116.667% */
+    line-height: 6.2vh; /* 116.667% */
 }
 .type{
     height: 70.4vh;
@@ -243,10 +244,10 @@ header button{
 .type>.blocks>.block>h5{
     color: #FFF;
     text-align: center;
-    font-size: 28px;
+    font-size: 3vh;
     font-weight: 600;
     line-height: normal;
-    letter-spacing: -0.75px;
+    letter-spacing: -0.05vw;
     margin: 1vh 0;
 }
 
@@ -265,7 +266,7 @@ header button{
 #fourth>h2{
     margin-left: 10vw;
     color: #FFF;
-    font-size: 58px;
+    font-size: 6vh;
     font-weight: 800;
     line-height: normal;
 }
@@ -303,8 +304,9 @@ header button{
 #fifth{
     width: 83.3vw;
     height: 40vh;
+    margin-top: 15vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
     font-family: "Lato", sans-serif;
@@ -312,18 +314,19 @@ header button{
 }
 #fifth>h2{
     color: #FFF;
-    font-size: 60px;
+    font-size: 6vh;
     font-weight: 400;
     line-height: normal;
 }
 #fifth button{
-    width: 204px;
-    height: 58px;
+    width: 14vw;
+    height: 6vh;
     flex-shrink: 0;
     border-radius: 4px;
     background: #5454D4;
     color: white;
     border: none;
+    margin-left: 5vw;
 }
 /*__________________________________SECTION_5__________________________________*/
 footer{
