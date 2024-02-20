@@ -1,0 +1,39 @@
+@media screen and (max-width: 480px){
+    .body{
+
+    }
+    .B-F{
+        width: 95%;
+        margin-top: 1vh;
+        flex-direction: column;
+        height: 81vh;
+    }
+    .F{
+        margin-top: 1vh;
+        width: 98%;
+        height: 20%;
+    }
+    .A{
+        height: 15vh;
+        margin-top: 1vh;
+    }
+    .B{
+        width: 98vw;
+    }
+    .C-E{
+        margin-top: 1vh;
+    }
+    .C{
+        width: 31vw;
+    }
+    .D{
+        width: 31vw;
+    }
+    .E{
+        width: 31vw;
+    }
+    .F{
+        width: 98vw;
+    }
+
+}
